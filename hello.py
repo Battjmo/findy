@@ -13,8 +13,6 @@ from ultralytics import YOLO
 from openai import OpenAI
 import base64
 
-# client = OpenAI(api_key="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")
-
 # def encode_image(image_path):
 #   with open(image_path, "rb") as image_file:
 #     return base64.b64encode(image_file.read()).decode('utf-8')
